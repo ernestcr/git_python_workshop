@@ -14,6 +14,7 @@ This program was created for the GWU chapter of ACM's Github and Python workshop
 which occured on 4/19/2015
 '''
 
+print 22
 word = None             # Global variable that holds the word picked from dictionary
 word_len = 0            # Global variable that holds the length of the word
 status = []             # Global variable to hold the status of the users play
@@ -27,7 +28,7 @@ This functions prints out a welcome message telling the user the basics of the g
 
 @param - None
 @return - None
-'''
+''''comment
 def welcome_message():
     print "Command Line hangman"
     print "Man has 7 body parts:"
